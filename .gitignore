@@ -1,3 +1,9 @@
+# OWN
+temp.txt
+*.pdf
+
+# OWN END
+
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
