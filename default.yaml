@@ -1,0 +1,22 @@
+---
+geometry:
+  - margin=20mm
+  - tmargin=23mm
+header-includes: |
+  \usepackage{tcolorbox}
+  \usepackage{graphicx}
+  \definecolor{note}{RGB}{8,109,221}
+  \definecolor{bug}{RGB}{233,49,71}
+  \definecolor{error}{RGB}{233,49,71}
+  \definecolor{example}{RGB}{120,82,238}
+  \definecolor{fail}{RGB}{233,49,71}
+  \definecolor{important}{RGB}{0,191,188}
+  \definecolor{info}{RGB}{8,109,221}
+  \definecolor{question}{RGB}{224,172,0}
+  \definecolor{success}{RGB}{8,185,78}
+  \definecolor{summary}{RGB}{0,191,188}
+  \definecolor{tip}{RGB}{0,191,188}
+  \definecolor{todo}{RGB}{8,109,221}
+  \definecolor{warning}{RGB}{236,117,0}
+  \definecolor{quote}{RGB}{158,158,158}
+---
