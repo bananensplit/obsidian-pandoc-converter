@@ -479,13 +479,24 @@ $endif$
 
 % -----------------------
 % Set custom date
+% $if(date)$
+% \date{$date$}
+% $elseif(createDate)$
+% \date{$createDate$}
+% $else$
+% \date{\today}
+% $endif$
+
 $if(date)$
 \date{$date$}
 $elseif(createDate)$
 \date{$createDate$}
+$elseif(datetime)$
+\date{$datetime$}
 $else$
 \date{\today}
 $endif$
+
 
 % -----------------------
 % Using fancy headers and footers

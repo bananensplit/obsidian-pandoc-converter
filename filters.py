@@ -147,7 +147,15 @@ def make_pagebreaks(elem: Element, doc: Doc):
     return elem
 
 
+def get_elements(elem: Element, doc: Doc):
+    logger.debug(f"get_elements: {elem}")
+    logger.debug(f"type: {type(elem)}")
+
+
 if __name__ == "__main__":
     logger.info("Starting filter")
     toJSONFilters([convert_callout, make_linebreaks, make_pagebreaks, convert_svg_to_png, convert_mermaid_to_png, resize_images])
+    # toJSONFilters([make_linebreaks])
+    # toJSONFilters([resize_images])
+    # toJSONFilters([get_elements])
     logger.info("Finished filter")
